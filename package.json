@@ -1,0 +1,17 @@
+{
+  "name": "require_js_jasmine_study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.8.0",
+    "requirejs": "^2.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jasmine-init": "jasmine init"
+  },
+  "author": "",
+  "license": "ISC"
+}
