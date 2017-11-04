@@ -1,6 +1,6 @@
 /**
  * 用 jasmine 测试require js 的模块
- 
+
  * @link https://jasmine.github.io/api/2.8/global.html#implementationCallback
 
  * xdescribe to skip hole file
@@ -29,6 +29,8 @@ describe('test require js module utils', function(){
 	});
 
 	it('test_utils_add_function', function(done){
+
+		// console.log(this.add);   // you can add helpers in helpers folder xx.js beforeAll beforeEach function
 
 		rjs(['utils/utils'], function(utils){
 			expect(utils.mod).toBe('utils');

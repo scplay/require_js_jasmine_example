@@ -16,9 +16,9 @@ requirejs.config({
     	modC: '/js/modules/mod-c', 
 
     	// 此处可写网址 http https // 都可以
-        jquery: '//code.jquery.com/jquery-3.2.1.min',
+        jquery: '//code.jquery.com/jquery-3.2.1.min', 
 
-        helper: 'utils/utils'
+        helper: 'utils/utils' // 如果模块 define 的时候自定义了名字，必须使用其定义好的名字，不然加载出来的是 undefined
     }
 });
 
